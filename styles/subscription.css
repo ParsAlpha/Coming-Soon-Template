@@ -1,0 +1,38 @@
+.emailinput {
+  border: none;
+  border-bottom: 2px solid #DCEB39;
+  background-color:rgba(169, 156, 187, 0);
+}
+
+.emailform{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+}
+.emailform input:focus{
+  outline: none;
+}
+
+.emailform p {
+  font-size: large;
+  font-weight: 900;
+  text-shadow: 5px 2px 4px gray;
+}
+
+.emailbutten{
+  background-color: rgba(169, 169, 169, 0.479);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: super;
+
+}
+.emailbutten[type="submit"]:hover {
+  border: 1px solid darkgray;
+  background-color: rgba(169, 169, 169, 0.719);
+}
