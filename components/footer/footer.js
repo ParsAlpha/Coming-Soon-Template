@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div>
-            <p>Powerd by <a href="http://parsalpha.ir/">ParsAlpha</a>♥</p>
+        <div className="footer">
+            <p>Powerd by <a href="http://parsalpha.ir/">ParsAlpha</a></p>
         </div>
     );
 };

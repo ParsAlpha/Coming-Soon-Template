@@ -2,6 +2,7 @@ import React from "react";
 import Timer from "../components/Countdown/Timer";
 import EmailPage from "../components/subscribbe/subscribe"
 import Footer from "../components/footer/footer"
+import Logo from "../components/logo/logo"
 import Head from 'next/head'
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           }} />
       </Head>
       <div className="container">
+        {/* <div>
+          <Logo />
+        </div> */}
         <h1>
           SnappClub
           <br />

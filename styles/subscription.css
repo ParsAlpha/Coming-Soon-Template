@@ -2,6 +2,9 @@
   border: none;
   border-bottom: 2px solid #DCEB39;
   background-color:rgba(169, 156, 187, 0);
+  position: relative;
+  top: 7px;
+
 }
 
 .emailform{
@@ -24,8 +27,8 @@
 
 .emailbutten{
   font-family: "FONT-PARSALPHA";
-	background: #EB3B88;
-	border: 1px solid #C94A81;
+	background: darkgray;
+	border: 1px solid darkgray;
 	padding: 5px 15px 5px 15px;
 	color: #FFCBE2;
 	box-shadow: inset -1px -1px 3px #FF62A7;

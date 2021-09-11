@@ -51,12 +51,12 @@ class EmailPage extends Component {
                     className="emailinput"
                     type='email'
                     onChange={this.myChangeHandler}
-                    placeholder="user@host.domian"
+                    placeholder="Email"
                 />
                 <input
                     className="emailbutten"
                     type='submit'
-                    value="ارسال"
+                    value="عضویت در اسنپ کلاب"
                 />
             </form>
         );
