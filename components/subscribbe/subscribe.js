@@ -27,6 +27,24 @@ class EmailPage extends Component {
     }
     render() {
         return (
+            // <div class="form-style-3">
+            //     <form>
+            //         <fieldset><legend>Personal</legend>
+            //             <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+            //             <label><span> </span><input type="submit" value="Submit" /></label>
+
+            //         </fieldset>
+
+            //     </form>
+            // </div>
+
+
+
+
+
+
+
+
             <form className="emailform" onSubmit={this.mySubmitHandler}>
                 <p>برای اطلاع بیشتر ایمیل خود را وارد کنید</p>
                 <input

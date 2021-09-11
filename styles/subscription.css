@@ -5,6 +5,7 @@
 }
 
 .emailform{
+  font-family: "FONT-PARSALPHA";
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -22,17 +23,86 @@
 }
 
 .emailbutten{
-  background-color: rgba(169, 169, 169, 0.479);
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-  vertical-align: super;
+  font-family: "FONT-PARSALPHA";
+	background: #EB3B88;
+	border: 1px solid #C94A81;
+	padding: 5px 15px 5px 15px;
+	color: #FFCBE2;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	-moz-box-shadow: inset -1px -1px 3px #FF62A7;
+	-webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
 
 }
 .emailbutten[type="submit"]:hover {
   border: 1px solid darkgray;
   background-color: rgba(169, 169, 169, 0.719);
+}
+
+.form-style-3{
+	max-width: 450px;
+	font-family: "FONT-PARSALPHA";
+  position: relative;
+    text-align: center;
+    margin: auto;
+}
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: #DCEB39;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.192);
+}
+.form-style-3 fieldset{
+	margin: 0px 0px 10px 0px;
+	border: 1px solid rgba(36, 34, 39, 0.651);
+	padding: 20px;
+	background: rgba(36, 34, 39, 0.651);
+
+}
+.form-style-3 fieldset legend{
+	color: #DCEB39;
+	border-top: 1px solid rgba(36, 34, 39, 0.651);
+	border-left: 1px solid rgba(36, 34, 39, 0.651);
+	border-right: 1px solid rgba(36, 34, 39, 0.651);
+	background: rgba(36, 34, 39, 0.651);
+	padding: 0px 8px 3px 8px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.form-style-3 textarea{
+	width:250px;
+	height:100px;
+}
+
+.form-style-3 input[type=email],
+.form-style-3 select, 
+
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: #EB3B88;
+	border: 1px solid #C94A81;
+	padding: 5px 15px 5px 15px;
+	color: #FFCBE2;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	-moz-box-shadow: inset -1px -1px 3px #FF62A7;
+	-webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.required{
+	color:red;
+	font-weight:normal;
 }
