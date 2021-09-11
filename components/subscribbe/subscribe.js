@@ -71,9 +71,9 @@ class EmailPage extends Component {
 
         let message;
         if (status === 1) {
-            message = 'Thanks for subscribe '
+            message = 'آدرس تماس شما با موفقیت ثبت شد'
         } else if (status === 2) {
-            message = "You had submit this form"
+            message = "َشما قبلا ثبت نام کرده اید"
         } else (
             'ERROR '
         )
