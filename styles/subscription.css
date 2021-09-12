@@ -1,6 +1,6 @@
 .emailinput {
   border: none;
-  border-bottom: 2px solid #DCEB39;
+  border-bottom: 2px solid rgb(94, 92, 92);
   background-color:rgba(169, 156, 187, 0);
   position: relative;
   top: 7px;
@@ -22,7 +22,6 @@
 .emailform p {
   font-size: large;
   font-weight: 900;
-  text-shadow: 5px 2px 4px gray;
 }
 
 .emailbutten{
@@ -31,9 +30,9 @@
 	border: 1px solid darkgray;
 	padding: 5px 15px 5px 15px;
 	color: #FFCBE2;
-	box-shadow: inset -1px -1px 3px #FF62A7;
-	-moz-box-shadow: inset -1px -1px 3px #FF62A7;
-	-webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+	box-shadow: inset -1px -1px 3px darkgray;
+	-moz-box-shadow: inset -1px -1px 3px darkgray;
+	-webkit-box-shadow: inset -1px -1px 3px darkgray;
 	border-radius: 3px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;

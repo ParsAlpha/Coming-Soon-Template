@@ -1,6 +1,11 @@
+.footer a{
+    color: rgb(94, 92, 92);
+    text-decoration-line: none;
+}
 .footer{
-    text-align: left;
-    bottom: -47px;
-    left: -19%;
+    background-color: #a9a9a9cc;
+    text-align: center;
+    bottom: -95px;
+    color: rgb(94, 92, 92);
     position: relative;
 }

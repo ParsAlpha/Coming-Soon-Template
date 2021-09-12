@@ -20,9 +20,10 @@ function App() {
           }} />
       </Head>
       <div className="container">
-        {/* <div>
+
+        <div>
           <Logo />
-        </div> */}
+        </div>
         <h1>
           SnappClub
           <br />
@@ -31,9 +32,10 @@ function App() {
         <div>
           <Timer />
           <EmailPage />
-          <Footer />
         </div>
       </div>
+      <Footer />
+
     </div>
   );
 }
