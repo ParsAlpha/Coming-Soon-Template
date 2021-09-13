@@ -9,6 +9,7 @@ function App() {
 
     <div className="App">
       <Head>
+        <title>اسنپ کلاب به زودی</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQRTP2LDYP"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -18,6 +19,14 @@ function App() {
                                  
                                    gtag('config', 'G-FQRTP2LDYP');`,
           }} />
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="Coming Soon 2" />
+        <meta property="og:title" content="SnappClub" />
+        <meta property="og:description" content="SnappClub" />
+        <meta property="og:url" content="http://snappclub.com/" />
+        <meta name="twitter:card" content="snappclub.ir/" />
+        <meta name="twitter:title" content="snappclub.ir" />
+        <meta name="twitter:description" content="snappclub.ir" />
       </Head>
       <div className="container">
 
@@ -26,9 +35,10 @@ function App() {
         </div>
         <h1>
           SnappClub
-          <br />
-          به <span className="sub">زودی</span> با شما خواهیم بود
         </h1>
+
+        <p className="p">
+          به <span className="sub">زودی</span> با شما خواهیم بود</p>
         <div>
           <Timer />
           <EmailPage />
