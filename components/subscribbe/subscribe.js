@@ -80,8 +80,9 @@ class EmailPage extends Component {
             hideClass: {
                 popup: 'animate__animated animate__fadeOutUp'
             },
-            showConfirmButton: false,
-            timer: 2000
+            showConfirmButton: true,
+            confirmButtonColor: '#1ADBEF',
+            timer: 5000
 
         })
     }
