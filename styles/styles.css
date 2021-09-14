@@ -21,12 +21,13 @@
 body {
   color: #fff;
   font-family: "FONT-PARSALPHA";
-  background-image: url(../public/bgindex.jpg);
+  /* background-image: url(../public/bgindex.jpg);
   background-repeat: no-repeat;
   background-position: top top;
-  background-size: cover;
+  background-size: cover; */
   margin: 0;
-  position: relative;
+  position: fixed;
+  
 }
 
 .App {
@@ -49,7 +50,10 @@ body {
 }
 .container {
   width: 100%;
+  height: 100%;
+  position: relative;
   margin: 0% auto;
+  
 }
 .container .sub{
   font-weight: 900;

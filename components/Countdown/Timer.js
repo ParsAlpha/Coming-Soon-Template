@@ -42,7 +42,7 @@ class CountDown extends Component {
         }
     }
     componentDidMount() {
-        this.deadline = new Date("Oct 05, 2021 21:00:00").getTime();
+        this.deadline = new Date(" March 20, 2022 21:00:00").getTime();
 
         this.x = setInterval(this.count, 1000);
     }

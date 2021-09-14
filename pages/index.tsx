@@ -4,49 +4,67 @@ import EmailPage from "../components/subscribbe/subscribe"
 import Footer from "../components/footer/footer"
 import Logo from "../components/logo/logo"
 import Head from 'next/head'
+
+import dynamic from "next/dynamic";
+import BGImage from "../components/bgmage/BGImage";
+
+const BgImage = dynamic(() => import("../components/bgmage/BGImage"), {
+  ssr: false,
+});
+
+
+
+
+
 function App() {
   return (
 
-    <div className="App">
-      <Head>
-        <title>اسنپ کلاب به زودی</title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQRTP2LDYP"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
+    <>
+      <BGImage />
+
+      <div className="App">
+        <Head>
+          <title>اسنپ کلاب به زودی</title>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQRTP2LDYP"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
                                    function gtag(){dataLayer.push(arguments);}
                                    gtag('js', new Date());
                                  
                                    gtag('config', 'G-FQRTP2LDYP');`,
-          }} />
-        <meta charSet="utf-8" />
-        <link rel="canonical" href="Coming Soon 2" />
-        <meta property="og:title" content="SnappClub" />
-        <meta property="og:description" content="SnappClub" />
-        <meta property="og:url" content="http://snappclub.com/" />
-        <meta name="twitter:card" content="snappclub.ir/" />
-        <meta name="twitter:title" content="snappclub.ir" />
-        <meta name="twitter:description" content="snappclub.ir" />
-      </Head>
-      <div className="container">
+            }} />
+          <meta charSet="utf-8" />
+          <link rel="canonical" href="Coming Soon 2" />
+          <meta property="og:title" content="SnappClub" />
+          <meta property="og:description" content="SnappClub" />
+          <meta property="og:url" content="http://snappclub.com/" />
+          <meta name="twitter:card" content="snappclub.ir/" />
+          <meta name="twitter:title" content="snappclub.ir" />
+          <meta name="twitter:description" content="snappclub.ir" />
+        </Head>
 
-        <div>
-          <Logo />
-        </div>
-        <h1>
-          SnappClub
-        </h1>
+        <div className="container">
 
-        <p className="p">
-          به <span className="sub">زودی</span> با شما خواهیم بود</p>
-        <div>
-          <Timer />
+          <div>
+            <Logo />
+          </div>
+          <h1>
+            SnappClub
+          </h1>
           <EmailPage />
-        </div>
-      </div>
-      <Footer />
 
-    </div>
+          <p className="p">
+            به <span className="sub">زودی</span> با شما خواهیم بود</p>
+          <div>
+            <Timer />
+          </div>
+        </div>
+        <Footer />
+
+      </div>
+
+    </>
   );
 }
 
